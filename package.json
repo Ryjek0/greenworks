@@ -9,8 +9,7 @@
     }
   ],
   "scripts": {
-    "cpplint": "python ./deps/cpplint/cpplint.py --extensions=h,cc src/* src/api/*",
-    "compdb": "node-gyp configure -- -f ninja && ninja -C build/Release -t compdb cxx > compile_commands.json"
+    "cpplint": "python ./deps/cpplint/cpplint.py --extensions=h,cc src/* src/api/*"
   },
   "dependencies": {
     "nan": "^2.14.0"
